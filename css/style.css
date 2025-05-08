@@ -1,0 +1,17 @@
+/* Esto es un comentario */
+/* Selectores de css
+*{
+propiedad: valor
+}
+
+Tipos de selectores
+
+universal *
+etiqueta p
+clase .nombreInventado
+id #nombreUnico
+*/
+* {
+  margin: 0%;
+  padding: 0%;
+}
