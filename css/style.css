@@ -25,3 +25,41 @@ nav a {
   text-decoration: none;
   margin-right: 15px;
 }
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer{
+  background-color: rgb(27, 25, 25);
+  color: aliceblue;
+  text-align: center;
+  padding: 30px;
+}
+
+.container{
+  margin: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 15px 0px;
+
+}
+
+p{
+  margin-bottom: 10px;
+}
+
+#article{
+  background-color: rgb(106, 208, 255);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+ul,ol{
+  list-style-position: inside;
+}
+
+li ul{
+  margin-left: 20px;
+}
