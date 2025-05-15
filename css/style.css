@@ -11,11 +11,18 @@ etiqueta p
 clase .nombreInventado
 id #nombreUnico
 */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 * {
   margin: 0%;
   padding: 0%;
 }
 
+body{
+  font-family: "Ubuntu", sans-serif;
+}
+
+/*aqui comienza el navbar*/
 nav {
   background-color: #2c6ed1;
   padding: 20px 30px;
@@ -30,6 +37,8 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/*aqui finaliza nav*/
+
 footer{
   background-color: rgb(27, 25, 25);
   color: aliceblue;
@@ -43,7 +52,7 @@ footer{
 
 h1, h2, h3, h4, h5, h6 {
   margin: 15px 0px;
-
+  font-family: "Ubuntu", sans-serif;
 }
 
 p{
@@ -62,4 +71,41 @@ ul,ol{
 
 li ul{
   margin-left: 20px;
+}
+
+/*estilizando tabla*/
+
+table, th, td{
+  border: 1px solid #4747ff;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+th, td{
+  padding: 5px;
+}
+
+thead{
+  background-color:#4747ff;
+  color: aliceblue;
+}
+
+/*ejemplo de pseudo-clase*/
+/*odd selecciona los hijos impares, los pares son even*/
+tbody tr:nth-child(odd){
+  background-color: rgb(167, 205, 237);
+}
+
+/*ejemplo de pseudo-elemento*/
+.title{
+  color: #ffffff;
+}
+/*toma la primera letra del titulo*/
+.title::first-letter{
+  font-size: 45px;
+}
+.featured-paragraph::first-line{
+  font-style: italic;
 }
