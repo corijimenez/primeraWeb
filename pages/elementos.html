@@ -28,7 +28,7 @@
     </header>
     <main class="container">
       <section>
-        <article>
+        <article id="articleCSS">
           <h2>All Levels of the &lt;h&gt; Tag</h2>
           <p>
             Header tags in HTML, repreesented by
@@ -100,32 +100,30 @@
             each &lt;li&gt; containd a like.
           </p>
           <ul>
-            <nav>
-              <li>
-                HTML
-                <a href="https://developer.mozilla.org/es/" target="_blank">
-                  (developer mozila documentation)</a
-                >
-              </li>
-              <li>
-                CSS
-                <a href="https://developer.mozilla.org/es/" target="_blank">
-                  (developer mozila documentation)</a
-                >
-              </li>
-              <li>
-                Bootstrap
-                <a href="https://getbootstrap.com/" target="_blank">
-                  (Bootstrap documentation)</a
-                >
-              </li>
-              <li>
-                React
-                <a href="https://react.dev/" target="_blank">
-                  (React documentation)</a
-                >
-              </li>
-            </nav>
+            <li>
+              HTML
+              <a href="https://developer.mozilla.org/es/" target="_blank">
+                (developer mozila documentation)</a
+              >
+            </li>
+            <li>
+              CSS
+              <a href="https://developer.mozilla.org/es/" target="_blank">
+                (developer mozila documentation)</a
+              >
+            </li>
+            <li>
+              Bootstrap
+              <a href="https://getbootstrap.com/" target="_blank">
+                (Bootstrap documentation)</a
+              >
+            </li>
+            <li>
+              React
+              <a href="https://react.dev/" target="_blank">
+                (React documentation)</a
+              >
+            </li>
           </ul>
           <h3>Backend Tools with Buttons</h3>
           <p>
@@ -135,72 +133,90 @@
           </p>
 
           <ol>
-            <li><button>Node.JS</button></li>
-            <li><button>Express</button></li>
-            <li><button>DataBase</button></li>
+            <li><button class="button" id="node">Node.JS</button></li>
+            <li><button class="button" id="express">Express</button></li>
+            <li><button class="button" id="db">DataBase</button></li>
           </ol>
         </article>
         <article>
-          <h2>ejemplo de tablas</h2>
+          <h2>Ejemplo de tablas</h2>
           <p>
-            Las tablas en HTML son elementos que permiten organizar y mostrar
-            datos en filas y columnas. Están compuestas por celdas que pueden
-            contener diversos tipos de contenido, como texto, imágenes o incluso
-            otras tablas. La estructura básica de una tabla HTML incluye los
-            siguientes elementos:
+            HTML tables are elements that allow you to organize and display data
+            in rows and columns. They are made up of cells that can contain
+            various types of content, such as text, images, or even other
+            tables. The basic structure of an HTML table includes the following
+            elements:
           </p>
           <ul>
-            <li> <strong> &lt; table &gt; :</strong> Define la tabla en sí misma.</li>
-             <li> <strong> &lt; thead &gt; :</strong> Contiene las filas que
-              representan el encabezado de la tabla.</li>
-             <li> <strong> &lt; tbody &gt; :</strong> Contiene las filas que
-              representan el cuerpo principal de la tabla.</li>
-              <li> <strong> &lt; tfoot &gt; :</strong> Opcionalmente, contiene las
-              filas que representan el pie de la tabla.</li>
-              <li> <strong> &lt; tr &gt; :</strong> Representa una fila de la tabla.</li>
-              <li> <strong> &lt; th &gt; :</strong> Define una celda de encabezado
-              (header cell). Se utiliza para los encabezados de columna o fila. </li>
+            <li>
+              <strong> &lt; table &gt; :</strong> Define the table itself.
+            </li>
+            <li>
+              <strong> &lt; thead &gt; :</strong> Contains the rows that
+              represent the table heading.
+            </li>
+            <li>
+              <strong> &lt; tbody &gt; :</strong> Contains the rows that
+              represent the main body of the table.
+            </li>
+            <li>
+              <strong> &lt; tfoot &gt; :</strong> Optionally, it contains the
+              rows representing the foot of the table.
+            </li>
+            <li>
+              <strong> &lt; tr &gt; :</strong> Represents a row of the table.
+            </li>
+            <li>
+              <strong> &lt; th &gt; :</strong> Define a header cell (header
+              cell). It is used for column or row headers.
+            </li>
           </ul>
           <p>
-            Cada fila (<strong> &lt; tr &gt;</strong>) puede contener celdas de
-            encabezado ( <strong> &lt; th &gt; </strong>) o celdas de datos
-            (<strong> &lt; td &gt; </strong>), dependiendo de si se encuentra
-            dentro del <strong> &lt; thead &gt;</strong>,
-            <strong> &lt; tbody &gt;</strong> o
-            <strong> &lt; tfoot &gt; </strong>. Las tablas en HTML se pueden
-            estilizar y personalizar utilizando CSS para cambiar su apariencia y
-            diseño, como el tamaño de las celdas, los bordes, los colores de
-            fondo y más. Las tablas son útiles para presentar datos de manera
-            estructurada y organizada en una página web.
+            Each row (<strong> &lt; tr &gt;</strong>) can contain cells of
+            header ( <strong> &lt; th &gt; </strong>) or data cells (<strong>
+              &lt; td &gt; </strong
+            >), depending on whether you are within
+            <strong> &lt; thead &gt;</strong>,
+            <strong> &lt; tbody &gt;</strong> or
+            <strong> &lt; tfoot &gt; </strong>. HTML tables can be stylize and
+            customize using CSS to change its appearance and design, such as
+            cell size, edges, colors of background and more. Tables are useful
+            for presenting data in a way structured and organized on a web page.
           </p>
-          <h3>tabla de juegos</h3>
+          <h3>Game table</h3>
           <table>
             <thead>
               <tr>
-                <th>Titulo</th>
-                <th>plataforma</th>
-                <th>calificaion</th>
-                <th>precio</th>
+                <th>Title</th>
+                <th>Platform</th>
+                <th>Qualification</th>
+                <th>Price</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>csgo</td>
-                <td>pc</td>
+                <td>CSGO</td>
+                <td>PC</td>
                 <td>5/5</td>
                 <td>$0</td>
               </tr>
               <tr>
-                <td>pes6</td>
-                <td>playstation</td>
+                <td>PES6</td>
+                <td>Playstation</td>
                 <td>5/5</td>
                 <td>$20500</td>
               </tr>
               <tr>
-                <td>gta 5</td>
-                <td>pc</td>
+                <td>GTA 5</td>
+                <td>PC</td>
                 <td>5/5</td>
                 <td>$14600</td>
+              </tr>
+              <tr>
+                <td>JAMAICA MU</td>
+                <td>PC</td>
+                <td>5/5</td>
+                <td>$0</td>
               </tr>
             </tbody>
           </table>
