@@ -32,6 +32,7 @@ nav a {
   text-decoration: none;
   margin-right: 15px;
 }
+/*hover es un estado especial de la etiqueta, es decir que cuando pase el mouse por arriba de inio, elementos y demas se vera un subrayado.*/
 
 nav a:hover {
   text-decoration: underline;
@@ -59,35 +60,42 @@ p{
   margin-bottom: 10px;
 }
 
-#article{
-  background-color: rgb(106, 208, 255);
+#articleHTML{
+  background-color: hsl(199, 100%, 84%);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#articleCSS{
+  background-color: hsl(256, 100%, 95%);
+  margin-top: 10px;
   padding: 10px;
   border-radius: 15px;
 }
 
 ul,ol{
-  list-style-position: inside;
+  list-style-position: inside; /*ubica los puntos y nros de los items dentro del texto o bloque de texto*/
 }
 
-li ul{
+li ul{ /*toma los ul que estan dentro de un li*/
   margin-left: 20px;
 }
 
 /*estilizando tabla*/
 
-table, th, td{
+table, th, td{ /*define los bordes*/
   border: 1px solid #4747ff;
 }
 
-table{
+table{ /*rellena las lineas de los bordes antes definidos*/
   border-collapse: collapse;
 }
 
-th, td{
+th, td{ /*le da espacio a las filas*/
   padding: 5px;
 }
 
-thead{
+thead{ /*para destacar el encabezado, lo pinta y cambia el color de la letra*/
   background-color:#4747ff;
   color: aliceblue;
 }
@@ -108,4 +116,29 @@ tbody tr:nth-child(odd){
 }
 .featured-paragraph::first-line{
   font-style: italic;
+}
+
+.button{
+  font-family: "Ubuntu", serif;
+  border-radius: 40px;
+  border: none;
+  padding: 13px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px;
+}
+
+#node{
+ background-color: #23ec77;
+color: white;
+}
+
+#express{
+  background-color: yellow;
+  color: black;
+}
+
+#db{
+  background-color: #2c6ed1;
+  color: aliceblue;
 }
