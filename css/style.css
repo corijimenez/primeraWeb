@@ -163,3 +163,53 @@ tbody tr:nth-child(odd){
   border: 1px solid rgb(197, 213, 255);
   margin-top: 10px;
 }
+img{
+  width: 100%;
+}
+form{
+  background-color: white;
+  width: 400px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+div input, select{
+  margin: 5px 0px;
+  padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+  
+}
+
+div textarea{
+  width:100%;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	resize:none;
+}
+
+div label{
+  
+}
+
+.btn-enviar{
+  border-radius: 10px;
+  border: none;
+  padding: 12px 12px;
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: rgb(12, 62, 199);
+  margin: 10px;
+  box-shadow: 2px 5px 10px #c2c1c1;
+  font-weight: 600;
+  transition: 300ms;
+}
+
+.btn-enviar:hover{
+background-color: #1616a0;
+}
