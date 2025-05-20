@@ -118,27 +118,48 @@ tbody tr:nth-child(odd){
   font-style: italic;
 }
 
+/*estilizando los buttons*/
 .button{
-  font-family: "Ubuntu", serif;
+  /*font-family: "Ubuntu", serif;*/
   border-radius: 40px;
   border: none;
-  padding: 13px;
+  padding: 12px 12px;
   text-align: center;
   font-size: 16px;
   margin: 10px;
+  box-shadow: 2px 5px 10px #c2c1c1;
+  font-weight: 600;
 }
 
-#node{
+.node{
  background-color: #23ec77;
-color: white;
+  color: white;
+  transition: 300ms;
+}
+.node:hover{
+  background: #19984e;
 }
 
-#express{
+.express{
   background-color: yellow;
   color: black;
+  transition: 300ms;
+}
+.express:hover{
+  background: #eeff91;
 }
 
-#db{
+.db{
   background-color: #2c6ed1;
   color: aliceblue;
+  transition: 300ms;
+}
+.db:hover{
+  background: #1616a0;
+}
+
+/*linea de division*/
+.linea{
+  border: 1px solid rgb(197, 213, 255);
+  margin-top: 10px;
 }
