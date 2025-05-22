@@ -22,7 +22,7 @@
         <a href="../index.html"> Inicio </a>
         <!-- donde dice inicio:  es el texto que ve el usuario-->
         <a href="./elementos.html">Elementos</a>
-        <a href="./contactos.html">Contactos</a>
+        <a href="./contactos.html" class="active-page">Contactos</a>
         <a
           href="https://tree.taiga.io/project/earias08-comision-web16/us/9?kanban-status=10073551"
           target="_blank"
@@ -76,11 +76,16 @@
             />
           </div>
           <div>
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" id="fecha" >
+          </div>
+          <div>
             <label for="provincia">Provincia:</label>
             <select id="provincia">
               <option value="">Seleccione una opcion</option>
               <option value="Tucuman">Tucuman</option>
               <option value="Salta">Salta</option>
+              <option value="Jujuy">Jujuy</option>
             </select>
           </div>
           <div>
@@ -89,8 +94,8 @@
               id=""
               rows="4"
               minlength="5"
-              maxlength="200"
-              placeholder="Escribe aqui tu consulta..."
+              maxlength="250"
+              placeholder="Escribe aqui tu consulta...solo hasta 250 caracteres"
             ></textarea>
           </div>
           <button type="submit" class="btn-enviar">Enviar</button>

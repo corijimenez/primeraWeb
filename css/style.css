@@ -22,6 +22,9 @@ body{
   font-family: "Ubuntu", sans-serif;
 }
 
+img{
+  width: 100%;
+}
 /*aqui comienza el navbar*/
 nav {
   background-color: #2c6ed1;
@@ -35,6 +38,11 @@ nav a {
 /*hover es un estado especial de la etiqueta, es decir que cuando pase el mouse por arriba de inio, elementos y demas se vera un subrayado.*/
 
 nav a:hover {
+  text-decoration: underline;
+}
+
+.active-page{
+  font-weight:600;
   text-decoration: underline;
 }
 
@@ -161,11 +169,10 @@ tbody tr:nth-child(odd){
 /*linea de division*/
 .linea{
   border: 1px solid rgb(197, 213, 255);
-  margin-top: 10px;
+  margin: 20px 0px;
 }
-img{
-  width: 100%;
-}
+
+/*estilizando formulario*/
 form{
   background-color: white;
   width: 400px;
