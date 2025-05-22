@@ -195,7 +195,7 @@ tbody tr:nth-child(odd) {
 /*estilizando formulario*/
 form {
   background-color: white;
-  width: 50%;
+  width: 500px;
   border-radius: 8px;
   padding: 30px;
   box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
